@@ -7,30 +7,27 @@ Interact with them via a simple extensible Api.
 Find plugin or make one to interact with your hardware or software.
 Build virtual object combining data and behavior from heterogene plugins for making a usefull virtual layer for making decision and automatisation rules.
 
-##Targetes features :  
+##Targeted features :  
 - Modular system,
 - Extensible via plugin, 
 - CQRS based system,
-- lightweight
-- Open source tests
-- cross platform (dotnet core 3)
-- simple query and command api
-- optional builtin rest api
+- lightweight,
+- Open source tests,
+- cross platform (dotnet core 3),
+- simple query and command api,
+- optional builtin rest api;
 
 
 ##System architecture :
 ###Internal Manager (can't be modified):  
-- plugins manager
-- reality layer manager
-- virtual layer manager
-- (event manager (event broker))
+- plugins manager,
+- reality layer manager,
+- virtual layer manager,
+- (event manager (event broker));
 
 ###External manager:
-- data manager 
-- (api manager)
-
-
-
+- data manager,
+- (api manager);
 
 ##Other related project on github
 ###Full program project :
@@ -45,7 +42,6 @@ Build virtual object combining data and behavior from heterogene plugins for mak
 
 ###Availables plugins
 - (coming soon)
-
 
 ####Note: 
 This project is still in development.
