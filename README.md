@@ -1,13 +1,14 @@
 # Scopotic framework
 
-Discover a multi-purpose framework for building automation system with mixed hardware and software interface.
+Discover a multi-purpose framework for building automation system with mixed hardware and software interface.  
 Build your own solution for your need with the manager behavior you need.  
 You just need to combine the manager type you need or make them.  
-Interact with them via a simple extensible Api.
-Find plugin or make one to interact with your hardware or software.
+Interact with them via a simple extensible Api.  
+Find plugin or make one to interact with your hardware or software.  
 Build virtual object combining data and behavior from heterogene plugins for making a usefull virtual layer for making decision and automatisation rules.
 
 ## Targeted features :  
+- cross platform
 - Modular system,
 - Extensible via plugin, 
 - CQRS based system,
@@ -31,17 +32,20 @@ Build virtual object combining data and behavior from heterogene plugins for mak
 
 ## Other related project on github
 ### Full program project :
-- console server (comming soon)
-- windows services server (comming soon)
-- windows services monitor
-- windows configuration app
-- 
+- console server/client (comming soon)
+- windows service server (comming soon)
+- windows service monitor (comming soon)  
+- windows wpf client  (comming soon)
 
 ### Availables external manager
-- XmlFileDataManager
+- XmlFileDataManager  (comming soon)
 
 ### Availables plugins
-- (coming soon)
+#### reality layer
+- openzwave interface  (comming soon)
+- weather underground interface (comming soon)
+
+
 
 #### Note: 
 This project is still in development.
