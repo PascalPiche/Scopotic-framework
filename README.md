@@ -7,7 +7,7 @@ Interact with them via a simple extensible Api.
 Find plugin or make one to interact with your hardware or software.
 Build virtual object combining data and behavior from heterogene plugins for making a usefull virtual layer for making decision and automatisation rules.
 
-##Targeted features :  
+## Targeted features :  
 - Modular system,
 - Extensible via plugin, 
 - CQRS based system,
@@ -18,32 +18,32 @@ Build virtual object combining data and behavior from heterogene plugins for mak
 - optional builtin rest api;
 
 
-##System architecture :
-###Internal Manager (can't be modified):  
+## System architecture :
+### Internal Manager (can't be modified):  
 - plugins manager,
 - reality layer manager,
 - virtual layer manager,
 - (event manager (event broker));
 
-###External manager:
+### External manager:
 - data manager,
 - (api manager);
 
-##Other related project on github
-###Full program project :
+## Other related project on github
+### Full program project :
 - console server (comming soon)
 - windows services server (comming soon)
 - windows services monitor
 - windows configuration app
 - 
 
-###Availables external manager
+### Availables external manager
 - XmlFileDataManager
 
-###Availables plugins
+### Availables plugins
 - (coming soon)
 
-####Note: 
+#### Note: 
 This project is still in development.
 This free version of the framework will be limited to 100 nodes in the futur.
 
